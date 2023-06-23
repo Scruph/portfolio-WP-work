@@ -114,8 +114,21 @@ h2{
   margin-bottom: 9%;
 }
 
-.technology{
-  margin-top: 3%;
+.repo {
+  display: flex;
+}
+
+.repo ul {
+  padding: 0.5rem 1.5rem;
+
+  gap: 0.4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.repo a {
+  text-decoration: none;
+  color: var(--font-white);
 }
 
 @media (max-width: 600px){
